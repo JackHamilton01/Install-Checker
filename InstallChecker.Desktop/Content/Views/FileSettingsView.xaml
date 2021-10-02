@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="InstallChecker.Desktop.Views.FileSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:local="clr-namespace:InstallChecker.Desktop.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="120">
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="Margin" Value="0 5"/>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="0 5"/>
+            </Style>
+        </StackPanel.Resources>
+        
+        <TextBlock Text="Name"/>
+        <TextBox Text="{Binding ApplicationName}"/>
+        <TextBlock Text="Path"/>
+        <TextBox Text="{Binding ApplicationPath}"/>
+        
+        <Button Content="Save"
+                Command="{Binding SaveApplicationCommand}"/>
+    </StackPanel>
+</UserControl>

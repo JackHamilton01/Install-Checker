@@ -1,0 +1,30 @@
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.exe
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.deps.json
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.runtimeconfig.json
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.runtimeconfig.dev.json
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Install_Checker.pdb
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Unity.Container.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\InstallChecker.Desktop.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\InstallChecker.Infrastructure.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\InstallChecker.Desktop.pdb
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\InstallChecker.Infrastructure.pdb
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker_MarkupCompile.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.g.resources
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.AssemblyInfoInputs.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.AssemblyInfo.cs
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.csproj.CoreCompileInputs.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.csproj.CopyComplete
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.dll
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.pdb
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.genruntimeconfig.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.csproj.AssemblyReference.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.GeneratedMSBuildEditorConfig.editorconfig

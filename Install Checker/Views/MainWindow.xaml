@@ -1,0 +1,14 @@
+﻿<Window x:Class="Install_Checker.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel= "True"
+        xmlns:infrastructure="clr-namespace:InstallChecker.Infrastructure;assembly=InstallChecker.Infrastructure"
+        Height="1080" Width="1650" >
+    <Grid>
+        <StackPanel>
+            <ContentControl prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.NewApplicationRegion}" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <ContentControl prism:RegionManager.RegionName="{x:Static infrastructure:RegionNames.ViewApplicationsRegion}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
