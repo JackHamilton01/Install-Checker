@@ -4,3 +4,12 @@ C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\Insta
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.dll
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.pdb
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.AccessControl.dll
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.Permissions.dll
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.Principal.Windows.dll
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.AccessControl.xml
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.Permissions.xml
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\System.Security.Principal.Windows.xml
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.csproj.CopyComplete
