@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 
-11851019924
+2702992019
 
-6-64628811
+14-280675922
 199-988165037
-Content\Views\FileSettingsView.xaml;
+Content\Views\ApplicationsView.xaml;Content\Views\FileSettingsView.xaml;
 
-False
+True
 
