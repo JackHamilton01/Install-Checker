@@ -1,26 +1,45 @@
-﻿using Prism.Commands;
+﻿using Install_Checker.Exceptions;
+using InstallChecker.Desktop.Models;
+using InstallChecker.Services;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
+using Application = InstallChecker.Desktop.Models.Application;
 
-namespace InstallChecker.Desktop.ViewModels
+namespace InstallChecker.Desktop.Content.ViewModels
 {
-    public class FIleSettingsViewModel : BindableBase
+    class FileSettingsViewModel : BindableBase
     {
+        IFileService fileService;
+
         public string ApplicationName { get; set; }
         public string ApplicationPath { get; set; }
 
         public DelegateCommand SaveApplicationCommand { get; set; }
 
-        public FIleSettingsViewModel()
+        public FileSettingsViewModel(IFileService saveFileService)
         {
+            this.fileService = saveFileService;
             SaveApplicationCommand = new DelegateCommand(SaveApplication);
         }
 
         private void SaveApplication()
         {
-            throw new NotImplementedException();
+            try
+            {
+                fileService.SaveApplicationSettings(new Application(ApplicationName, ApplicationPath), fileService);
+            }
+            catch (FileAlreadyExistsException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
     }
 }
