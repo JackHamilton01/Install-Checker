@@ -124,7 +124,7 @@
           "lib/netcoreapp3.0/Unity.Container.dll": {}
         }
       },
-      "InstallChecker/1.0.0": {
+      "InstallChecker.Desktop/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -136,10 +136,10 @@
           "Unity": "5.11.10"
         },
         "compile": {
-          "bin/placeholder/InstallChecker.dll": {}
+          "bin/placeholder/InstallChecker.Desktop.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InstallChecker.dll": {}
+          "bin/placeholder/InstallChecker.Desktop.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -453,10 +453,10 @@
         "unity.container.nuspec"
       ]
     },
-    "InstallChecker/1.0.0": {
+    "InstallChecker.Desktop/1.0.0": {
       "type": "project",
-      "path": "../InstallChecker.Desktop/InstallChecker.csproj",
-      "msbuildProject": "../InstallChecker.Desktop/InstallChecker.csproj"
+      "path": "../InstallChecker.Desktop/InstallChecker.Desktop.csproj",
+      "msbuildProject": "../InstallChecker.Desktop/InstallChecker.Desktop.csproj"
     },
     "InstallChecker.Infrastructure/1.0.0": {
       "type": "project",
@@ -466,7 +466,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "InstallChecker >= 1.0.0",
+      "InstallChecker.Desktop >= 1.0.0",
       "InstallChecker.Infrastructure >= 1.0.0",
       "Prism.Unity >= 8.1.97"
     ]
@@ -478,9 +478,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\Install Checker.Desktop.csproj",
+      "projectUniqueName": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\Install Checker.csproj",
       "projectName": "Install_Checker",
-      "projectPath": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\Install Checker.Desktop.csproj",
+      "projectPath": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\Install Checker.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\obj\\",
       "projectStyle": "PackageReference",
@@ -503,8 +503,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.csproj": {
-              "projectPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.csproj"
+            "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj": {
+              "projectPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj"
             },
             "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Infrastructure\\InstallChecker.Infrastructure.csproj": {
               "projectPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Infrastructure\\InstallChecker.Infrastructure.csproj"
@@ -545,7 +545,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

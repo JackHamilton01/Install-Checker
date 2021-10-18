@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Install_Checker/1.0.0": {
         "dependencies": {
-          "InstallChecker": "1.0.0",
+          "InstallChecker.Desktop": "1.0.0",
           "InstallChecker.Infrastructure": "1.0.0",
           "Prism.Unity": "8.1.97"
         },
@@ -95,7 +95,7 @@
           "Unity.Abstractions": "5.11.7"
         }
       },
-      "InstallChecker/1.0.0": {
+      "InstallChecker.Desktop/1.0.0": {
         "dependencies": {
           "InstallChecker.Infrastructure": "1.0.0",
           "Npgsql": "5.0.10",
@@ -105,7 +105,7 @@
           "Unity": "5.11.10"
         },
         "runtime": {
-          "InstallChecker.dll": {}
+          "InstallChecker.Desktop.dll": {}
         }
       },
       "InstallChecker.Infrastructure/1.0.0": {
@@ -191,7 +191,7 @@
       "path": "unity.container/5.11.11",
       "hashPath": "unity.container.5.11.11.nupkg.sha512"
     },
-    "InstallChecker/1.0.0": {
+    "InstallChecker.Desktop/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

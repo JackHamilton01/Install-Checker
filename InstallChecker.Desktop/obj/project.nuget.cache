@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5urhDn8C/csKeBIGwVzQ13wQ7Zvhvmme3PwjCa30NRC0Xi1Fcu2qsAeXw65p0tPng42i2agqkP6P6aalUwXE4w==",
+  "dgSpecHash": "uCgo0FSWf6vTHvHeUxlfHgYt7S1xsrZUbWCK+4vXa1yf//z+4pKm3707xsKBBYzQkUAJqFGi/J//+j7067BqWw==",
   "success": true,
-  "projectFilePath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.csproj",
+  "projectFilePath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\npgsql\\5.0.10\\npgsql.5.0.10.nupkg.sha512",

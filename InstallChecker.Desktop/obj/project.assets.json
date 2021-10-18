@@ -455,9 +455,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.csproj",
-      "projectName": "InstallChecker",
-      "projectPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.csproj",
+      "projectUniqueName": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj",
+      "projectName": "InstallChecker.Desktop",
+      "projectPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\obj\\",
       "projectStyle": "PackageReference",
@@ -535,7 +535,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

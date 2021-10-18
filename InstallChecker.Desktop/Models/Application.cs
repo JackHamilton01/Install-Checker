@@ -14,5 +14,11 @@ namespace InstallChecker.Desktop.Models
             Name = name;
             Path = path;
         }
+
+        // Parameterless constructor for xml serialization
+        public Application()
+        {
+
+        }
     }
 }

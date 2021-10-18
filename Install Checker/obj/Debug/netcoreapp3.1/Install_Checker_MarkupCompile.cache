@@ -5,7 +5,7 @@ winexe
 C#
 .cs
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\
-Install_Checker.Desktop
+Install_Checker
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
@@ -13,7 +13,7 @@ C:\Github\Projects\Install-Checker\Install Checker\App.xaml
 1-1644662438
 
 4-885226931
-201-1412740033
+2011642499019
 Views\MainWindow.xaml;
 
 False

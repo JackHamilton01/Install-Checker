@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Install Checker.Desktop", "Install Checker.Desktop.csproj", "{9BF92F30-2E00-41E8-A09A-D4B987447260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Install Checker", "Install Checker.csproj", "{9BF92F30-2E00-41E8-A09A-D4B987447260}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstallChecker", "..\InstallChecker.Desktop\InstallChecker.csproj", "{67F0F315-CB43-4F4F-ADCC-52D7145BE43A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstallChecker.Desktop", "..\InstallChecker.Desktop\InstallChecker.Desktop.csproj", "{67F0F315-CB43-4F4F-ADCC-52D7145BE43A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallChecker.Infrastructure", "..\InstallChecker.Infrastructure\InstallChecker.Infrastructure.csproj", "{DA645B66-C7A2-4B99-9525-95D6D1B4119B}"
 EndProject
