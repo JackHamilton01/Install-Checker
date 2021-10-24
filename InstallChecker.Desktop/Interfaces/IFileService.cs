@@ -8,5 +8,6 @@ namespace InstallChecker.Services
         void SaveApplicationSettings(Product application, IFileService saveFileService);
         bool CheckIfFileExists(string path);
         ObservableCollection<Product> GetSavedProducts();
+        void ProductsExist(ObservableCollection<Product> products);
     }
 }

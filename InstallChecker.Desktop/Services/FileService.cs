@@ -50,5 +50,16 @@ namespace InstallChecker.Services
             }
             return productList;
         }
+
+        public void ProductsExist(ObservableCollection<Product> products)
+        {
+            foreach (var product in products)
+            {
+                if (Directory.Exists(product.Path))
+                {
+                    product.IsInstalled = true;
+                }
+            }
+        }
     }
 }

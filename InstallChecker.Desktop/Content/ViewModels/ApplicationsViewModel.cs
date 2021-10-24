@@ -19,7 +19,6 @@ namespace InstallChecker.Content.ViewModels
         public string ApplicationName { get; set; }
         public string ApplicationPath { get; set; }
 
-
         public ObservableCollection<Product> Products{ get; set; }
 
         public ApplicationsViewModel(IDatabaseConnection databaseConnection, IXMLSerialization xmlSerialization, IFileService fileService)
@@ -32,6 +31,7 @@ namespace InstallChecker.Content.ViewModels
             Products = DataAccess.Products;
             Products = fileService.GetSavedProducts();
             //Products = databaseConnection.GetSavedItemsFromDatabase();
+            fileService.ProductsExist(Products);
         }
     }
 }
