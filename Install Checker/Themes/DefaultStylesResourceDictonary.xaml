@@ -35,7 +35,7 @@
                         <DataTrigger Binding="{Binding IsInstalled}" Value="True">
                             <Setter TargetName="ItemRectangle" Property="Fill" Value="Green"/>
                         </DataTrigger>
-                        <DataTrigger Binding="{Binding NotInstalled}" Value="True">
+                        <DataTrigger Binding="{Binding IsInstalled}" Value="False">
                             <Setter TargetName="ItemRectangle" Property="Fill" Value="Red"/>
                         </DataTrigger>
                     </ControlTemplate.Triggers>
