@@ -8,7 +8,7 @@ namespace InstallChecker.Services
     public interface ISQLCommandSenderService
     {
         void CreateApplicationsTable();
-        void SaveToDatabase(Application application);
-        ObservableCollection<Application> GetApplications(NpgsqlConnection npgsqlConnection);
+        void SaveToDatabase(Product application);
+        ObservableCollection<Product> GetApplications(NpgsqlConnection npgsqlConnection);
     }
 }

@@ -1,22 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace InstallChecker.Desktop.Models
 {
-    public class Application
+    [Serializable]
+    public class Product
     {
         public string Name { get; set; }
         public string Path { get; set; }
+        public bool IsInstalled { get; set; }
+        public bool NotInstalled { get; set; }
 
-        public Application(string name, string path)
+        public Product(string name, string path)
         {
             Name = name;
             Path = path;
         }
 
         // Parameterless constructor for xml serialization
-        public Application()
+        public Product()
         {
 
         }

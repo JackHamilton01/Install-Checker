@@ -25,12 +25,12 @@ namespace InstallChecker.Services
             }
         }
 
-        public void SaveApplicationToDatabase(Application application)
+        public void SaveApplicationToDatabase(Product application)
         {
             SQLCommandSenderService.SaveToDatabase(application);
         }
 
-        public ObservableCollection<Application> GetSavedItemsFromDatabase()
+        public ObservableCollection<Product> GetSavedItemsFromDatabase()
         {
             using (NpgsqlConnection npgsqlConnection = new NpgsqlConnection(DatabaseHelper.ConnectionString(DatabaseHelper.ConnectionStringName)))
             {

@@ -30,3 +30,6 @@ C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Insta
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.dll
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.pdb
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.genruntimeconfig.cache
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Themes\DefaultStylesResourceDictonary.baml
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker_MarkupCompile.lref
+C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\App.baml

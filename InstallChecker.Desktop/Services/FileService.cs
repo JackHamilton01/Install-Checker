@@ -23,7 +23,7 @@ namespace InstallChecker.Services
             this.xmlService = saveToXMLService;
         }
 
-        public void SaveApplicationSettings(Application application, IFileService fileService)
+        public void SaveApplicationSettings(Product application, IFileService fileService)
         {
             databaseConnection.SaveApplicationToDatabase(application);
             xmlService.Serialize(application, fileService);
@@ -36,6 +36,19 @@ namespace InstallChecker.Services
                 return true;
             }
             return false;
+        }
+
+        public ObservableCollection<Product> GetSavedProducts()
+        {
+            string[] filePaths = Directory.GetFiles(FileSettings.SavedApplicationsPath, "*.xml", SearchOption.AllDirectories);
+            ObservableCollection<Product> productList = new ObservableCollection<Product>();
+
+            foreach (var filePath in filePaths)
+            {
+                Product product = xmlService.Deserialize(filePath);
+                productList.Add(product);
+            }
+            return productList;
         }
     }
 }
