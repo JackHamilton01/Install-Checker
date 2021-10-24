@@ -1,13 +1,14 @@
 ﻿using Install_Checker.Exceptions;
 using InstallChecker.Desktop.Models;
+using InstallChecker.Desktop.Services;
 using InstallChecker.Services;
 using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
-using Application = InstallChecker.Desktop.Models.Application;
 
 namespace InstallChecker.Desktop.Content.ViewModels
 {
@@ -19,6 +20,7 @@ namespace InstallChecker.Desktop.Content.ViewModels
         public string ApplicationPath { get; set; }
 
         public DelegateCommand SaveApplicationCommand { get; set; }
+        public ObservableCollection<Product> Products { get; set; } = new ObservableCollection<Product>();
 
         public FileSettingsViewModel(IFileService saveFileService)
         {
@@ -30,7 +32,8 @@ namespace InstallChecker.Desktop.Content.ViewModels
         {
             try
             {
-                fileService.SaveApplicationSettings(new Application(ApplicationName, ApplicationPath), fileService);
+                DataAccess.Products.Add(new Product(ApplicationName, ApplicationPath));
+                fileService.SaveApplicationSettings(new Product(ApplicationName, ApplicationPath), fileService);
             }
             catch (FileAlreadyExistsException e)
             {

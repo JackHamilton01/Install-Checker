@@ -5,6 +5,7 @@ using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 
 namespace InstallChecker.Content.ViewModels
@@ -13,23 +14,24 @@ namespace InstallChecker.Content.ViewModels
     {
         IDatabaseConnection databaseConnection;
         IXMLSerialization xmlSerialization;
+        IFileService fileService;
 
-        public ObservableCollection<Application> Applications{ get; set; }
-        private List<Application> deserializedApplications;
+        public string ApplicationName { get; set; }
+        public string ApplicationPath { get; set; }
 
-        public ApplicationsViewModel(IDatabaseConnection databaseConnection, IXMLSerialization xmlSerialization)
+
+        public ObservableCollection<Product> Products{ get; set; }
+
+        public ApplicationsViewModel(IDatabaseConnection databaseConnection, IXMLSerialization xmlSerialization, IFileService fileService)
         {
             this.databaseConnection = databaseConnection;
             this.xmlSerialization = xmlSerialization;
+            this.fileService = fileService;
 
-            Applications = new ObservableCollection<Application>();
-            deserializedApplications = new List<Application>();
-
-            Applications = databaseConnection.GetSavedItemsFromDatabase();
-            //Application application = xmlSerialization.Deserialize<Application>();
-            Applications.Clear();
-            //Applications.Add(application);
-            //deserializedApplications = xmlSerialization.Deserialize<Application>();
+            DataAccess.Products.Add(new Product(ApplicationName, ApplicationPath));
+            Products = DataAccess.Products;
+            Products = fileService.GetSavedProducts();
+            //Products = databaseConnection.GetSavedItemsFromDatabase();
         }
     }
 }

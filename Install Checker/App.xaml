@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Install_Checker"
              xmlns:prism="http://prismlibrary.com/" >
     <Application.Resources>
-         
+        <ResourceDictionary Source="Themes\DefaultStylesResourceDictonary.xaml"/>
     </Application.Resources>
 </prism:PrismApplication>

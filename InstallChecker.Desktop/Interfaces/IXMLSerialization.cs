@@ -2,12 +2,13 @@
 using InstallChecker.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace InstallChecker.Desktop.Services
 {
     public interface IXMLSerialization
     {
-        List<Application> Deserialize<T>();
-        void Serialize(Application application, IFileService fileService);
+        Product Deserialize(string path);
+        void Serialize(Product application, IFileService fileService);
     }
 }
