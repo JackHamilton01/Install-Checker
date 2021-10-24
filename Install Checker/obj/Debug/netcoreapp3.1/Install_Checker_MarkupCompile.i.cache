@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Github\Projects\Install-Checker\Install Checker\App.xaml
-1-1644662438
+2-1680178140
 
 6-1797781862
 2011642499019
-Views\MainWindow.xaml;
+Themes\DefaultStylesResourceDictonary.xaml;Views\MainWindow.xaml;
 
 False
 

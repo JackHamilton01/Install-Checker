@@ -14,14 +14,14 @@ namespace InstallChecker.Services
         private string selectAllFromTableSQLCommand = "SELECT * FROM applications";
         private string insertIntoDatabaseValuesSQLCommand = "INSERT INTO applications VALUES(@name, @path)";
 
-        public void SaveToDatabase(Application application)
+        public void SaveToDatabase(Product application)
         {
             CreateApplicationsTable();
             using (NpgsqlConnection npgsqlConnection = new NpgsqlConnection(DatabaseHelper.ConnectionString(DatabaseHelper.ConnectionStringName)))
             {
-                List<Application> people = new List<Application>();
+                List<Product> people = new List<Product>();
 
-                people.Add(new Application(
+                people.Add(new Product(
                     application.Name,
                     application.Path));
 
@@ -89,9 +89,9 @@ namespace InstallChecker.Services
             }
         }
 
-        public ObservableCollection<Application> GetApplications(NpgsqlConnection npgsqlConnection)
+        public ObservableCollection<Product> GetApplications(NpgsqlConnection npgsqlConnection)
         {
-            ObservableCollection<Application> applications = new ObservableCollection<Application>();
+            ObservableCollection<Product> applications = new ObservableCollection<Product>();
 
             npgsqlConnection.Open();
             NpgsqlCommand sqlCommand = new NpgsqlCommand();
@@ -104,7 +104,7 @@ namespace InstallChecker.Services
             {
                 while (npgsqlDataReader.Read())
                 {
-                    applications.Add(new Application(npgsqlDataReader.GetString(0),
+                    applications.Add(new Product(npgsqlDataReader.GetString(0),
                                             npgsqlDataReader.GetString(1)));
                 }
             }

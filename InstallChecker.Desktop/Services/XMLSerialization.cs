@@ -13,20 +13,20 @@ namespace InstallChecker.Desktop.Services
 {
     public class XMLSerialization : IXMLSerialization
     {
-        public void Serialize(Application application, IFileService fileService)
+        public void Serialize(Product product, IFileService fileService)
         {
-            string savePath = FileSettings.SavedApplicationsPath + $"{application.Name}.xml";
+            string savePath = FileSettings.SavedApplicationsPath + $"{product.Name}.xml";
             try
             {
                 if (fileService.CheckIfFileExists(savePath))
                 {
-                    throw new FileAlreadyExistsException($"Application {application.Name} already exists");
+                    throw new FileAlreadyExistsException($"Application {product.Name} already exists");
                 }
 
                 using (var stream = new FileStream(savePath, FileMode.CreateNew))
                 {
-                    XmlSerializer XML = new XmlSerializer(typeof(Application));
-                    XML.Serialize(stream, application);
+                    XmlSerializer XML = new XmlSerializer(typeof(Product));
+                    XML.Serialize(stream, product);
                 }
             }
             catch (IOException e)
@@ -35,20 +35,17 @@ namespace InstallChecker.Desktop.Services
             }
         }
 
-        public List<Application> Deserialize<T>()
+        public Product Deserialize(string path)
         {
-            var loadedItems = new List<Application>();
+            var loadedItems = new ObservableCollection<Product>();
 
-            using (FileStream fs = new FileStream(FileSettings.SavedApplicationsPath, FileMode.Open))
+            using (FileStream fs = new FileStream(path, FileMode.Open))
             {
-                XmlSerializer serializedComSettings = new XmlSerializer(typeof(List<Application>));
+                XmlSerializer xml = new XmlSerializer(typeof(Product));
                 StreamReader reader = new StreamReader(fs);
 
-                loadedItems = (List<Application>)serializedComSettings.Deserialize(reader);
-                reader.Close();
+                return (Product)xml.Deserialize(reader);
             }
-
-            return loadedItems;
         }
     }
 }

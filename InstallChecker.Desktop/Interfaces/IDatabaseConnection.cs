@@ -5,7 +5,7 @@ namespace InstallChecker.Services
 {
     public interface IDatabaseConnection
     {
-        void SaveApplicationToDatabase(Application application);
-        ObservableCollection<Application> GetSavedItemsFromDatabase();
+        void SaveApplicationToDatabase(Product application);
+        ObservableCollection<Product> GetSavedItemsFromDatabase();
     }
 }
