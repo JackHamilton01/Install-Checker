@@ -12,7 +12,7 @@
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Foreground" Value="#303030 "/>
         <Setter Property="FontFamily" Value="Verdana"/>
-        <Setter Property="Margin" Value="10 0"/>
+        <Setter Property="Margin" Value="10 0 0 5"/>
     </Style>
 
     <Style TargetType="Button">
@@ -24,7 +24,8 @@
                 <ControlTemplate TargetType="Button">
                     <Grid Name="ItemBackground" >
                         <Rectangle Name="ItemRectangle"
-                                   Fill="{TemplateBinding Background}"/>
+                                   Fill="{TemplateBinding Background}"
+                                   Margin="5"/>
                         <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" />
                     </Grid>
                     <ControlTemplate.Triggers>
@@ -33,10 +34,10 @@
                             <Setter Property="Background" Value="Transparent"/>
                         </Trigger>
                         <DataTrigger Binding="{Binding IsInstalled}" Value="True">
-                            <Setter TargetName="ItemRectangle" Property="Fill" Value="Green"/>
+                            <Setter TargetName="ItemRectangle" Property="Fill" Value="#7bb526"/>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsInstalled}" Value="False">
-                            <Setter TargetName="ItemRectangle" Property="Fill" Value="Red"/>
+                            <Setter TargetName="ItemRectangle" Property="Fill" Value="#f32c22"/>
                         </DataTrigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

@@ -31,11 +31,19 @@ namespace InstallChecker.Services
 
         public bool CheckIfFileExists(string path)
         {
-            if (File.Exists(path))
+            if (Directory.Exists(path))
             {
                 return true;
             }
             return false;
+        }
+
+        public void CheckIfFileExists(Product product)
+        {
+            if (Directory.Exists(product.Path))
+            {
+                product.IsInstalled = true;
+            }
         }
 
         public ObservableCollection<Product> GetSavedProducts()
