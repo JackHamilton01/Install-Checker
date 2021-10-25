@@ -48,6 +48,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[5.0.10, )"

@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:Install_Checker"
              xmlns:prism="http://prismlibrary.com/" >
     <Application.Resources>
-        <ResourceDictionary Source="Themes\DefaultStylesResourceDictonary.xaml"/>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/DefaultStylesResourceDictonary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </prism:PrismApplication>

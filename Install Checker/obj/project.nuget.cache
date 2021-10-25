@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yntA7vP2XmUs0qDltaxmg8TmHhJcOLcUbkZJlQjUA5Vrvv69rETwMNqIF0fJWULpXzVoYVdk0ip5BvLwZfJWEw==",
+  "dgSpecHash": "zFYuFCkFbMmuPQQCLelVyLoMyQUL/ZcCZsur+vVx/UmBNF2+hvR4TI/6/mZkQL7TutJZB4Gzq6+r9nkSLJvc0g==",
   "success": true,
   "projectFilePath": "C:\\Github\\Projects\\Install-Checker\\Install Checker\\Install Checker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\npgsql\\5.0.10\\npgsql.5.0.10.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",

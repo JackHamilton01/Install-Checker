@@ -10,10 +10,30 @@
         "dependencies": {
           "InstallChecker.Desktop": "1.0.0",
           "InstallChecker.Infrastructure": "1.0.0",
+          "MaterialDesignThemes": "4.2.1",
           "Prism.Unity": "8.1.97"
         },
         "runtime": {
           "Install_Checker.dll": {}
+        }
+      },
+      "MaterialDesignColors/2.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.3.2",
+            "fileVersion": "2.0.3.2"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.2.1": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.2.1.2",
+            "fileVersion": "4.2.1.2"
+          }
         }
       },
       "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
@@ -98,6 +118,7 @@
       "InstallChecker.Desktop/1.0.0": {
         "dependencies": {
           "InstallChecker.Infrastructure": "1.0.0",
+          "MaterialDesignThemes": "4.2.1",
           "Npgsql": "5.0.10",
           "Prism.Core": "8.1.97",
           "Prism.Unity": "8.1.97",
@@ -120,6 +141,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MaterialDesignColors/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hn5GsMbmYet4WTVRNN01VGkPglWtytJt3oTTzjHjPSDtoF6ZVmfjj6R1EeNER2rlBtSNGuqB4GZmD6cnHL0f1A==",
+      "path": "materialdesigncolors/2.0.3",
+      "hashPath": "materialdesigncolors.2.0.3.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LsvOoXrEtOJib+kvBx3TIUN+zYexQcYiKGYoAXWMvfFTwiaELRWk89wny9sI4lPDqoJtIXVtoxo1oRDsLwy7NQ==",
+      "path": "materialdesignthemes/4.2.1",
+      "hashPath": "materialdesignthemes.4.2.1.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
       "type": "package",

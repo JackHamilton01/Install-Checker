@@ -51,6 +51,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Prism.Unity": {
               "target": "Package",
               "version": "[8.1.97, )"
@@ -122,6 +126,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[5.0.10, )"

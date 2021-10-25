@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:InstallChecker.Content.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
@@ -19,6 +20,8 @@
                                     <TextBlock Text="{Binding Name}"/>
                                     <TextBlock Text="{Binding Path}" 
                                                Style="{StaticResource ParagraphStyle}"/>
+
+                                
                                 </StackPanel>
                             </Button>
                         </DataTemplate>
