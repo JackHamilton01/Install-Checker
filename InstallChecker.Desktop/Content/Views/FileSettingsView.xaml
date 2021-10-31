@@ -12,7 +12,7 @@
         <StackPanel.Resources>
             <Style TargetType="{x:Type TextBlock}">
                 <Setter Property="Margin" Value="0 5"/>
-                <Setter Property="MinWidth" Value="400"/>
+                <Setter Property="MinWidth" Value="420"/>
             </Style>
             <Style TargetType="{x:Type Button}">
                 <Setter Property="Margin" Value="0 5"/>

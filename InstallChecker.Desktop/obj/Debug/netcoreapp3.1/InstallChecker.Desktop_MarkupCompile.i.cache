@@ -16,5 +16,5 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 2021766103937
 Content\Views\ApplicationsView.xaml;Content\Views\FileSettingsView.xaml;
 
-True
+False
 
