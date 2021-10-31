@@ -33,3 +33,5 @@ C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Insta
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Themes\DefaultStylesResourceDictonary.baml
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker_MarkupCompile.lref
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\App.baml
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
