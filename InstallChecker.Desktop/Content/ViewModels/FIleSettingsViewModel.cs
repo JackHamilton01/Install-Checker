@@ -25,22 +25,35 @@ namespace InstallChecker.Desktop.Content.ViewModels
         public DelegateCommand SaveApplicationCommand { get; set; }
         public ObservableCollection<Product> Products { get; set; } = new ObservableCollection<Product>();
 
+        private bool productEdited;
+        private Product editedProduct;
+
         public FileSettingsViewModel(IFileService saveFileService, IEventAggregator eventAggregator)
         {
             this.fileService = saveFileService;
             this.eventAggregator = eventAggregator;
             SaveApplicationCommand = new DelegateCommand(SaveApplication);
 
+            eventAggregator.GetEvent<ModifyProductEvent>().Subscribe(OnProductRecieved);
         }
 
         private void SaveApplication()
         {
             try
             {
-                DataAccess.Products.Add(new Product(ApplicationName, ApplicationPath));
-                fileService.SaveApplicationSettings(new Product(ApplicationName, ApplicationPath), fileService);
+                if (!productEdited)
+                {
+                    fileService.SaveApplicationSettings(new Product(ApplicationName, ApplicationPath), fileService);
 
-                eventAggregator.GetEvent<ProductSavedEvent>().Publish(new Product(ApplicationName, ApplicationPath));
+                    eventAggregator.GetEvent<ProductSavedEvent>().Publish(new Product(ApplicationName, ApplicationPath));
+                }
+                else
+                {
+                    eventAggregator.GetEvent<ProductSavedEvent>().Publish(new Product(ApplicationName, ApplicationPath, true));
+                }
+
+                ApplicationName = string.Empty;
+                ApplicationPath = string.Empty;
             }
             catch (FileAlreadyExistsException e)
             {
@@ -50,6 +63,15 @@ namespace InstallChecker.Desktop.Content.ViewModels
             {
                 MessageBox.Show(e.Message);
             }
+        }
+
+        private void OnProductRecieved(Product product)
+        {
+            ApplicationName = product.Name;
+            ApplicationPath = product.Path;
+            product.IsEdited = true;
+            productEdited = true;
+            editedProduct = product;
         }
     }
 }

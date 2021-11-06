@@ -16,10 +16,12 @@
         </Grid.RowDefinitions>
 
         <ScrollViewer Background="AntiqueWhite">
-                <ItemsControl ItemsSource="{Binding Products}" Grid.Row="0" MinWidth="400">
+                <ItemsControl x:Name="Products" ItemsSource="{Binding Products}" Grid.Row="0" MinWidth="400">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Button Style="{StaticResource ProductButtonStyle}">
+                        <Button Command="{Binding ElementName=Products,  Path=DataContext.EditItemCommand}"
+                                CommandParameter="{Binding}"
+                                Style="{StaticResource ProductButtonStyle}">
                                 <Grid Margin="5">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"/>

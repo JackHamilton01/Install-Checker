@@ -15,6 +15,7 @@ C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.AssemblyInfoInputs.cache
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.AssemblyInfo.cs
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.csproj.CoreCompileInputs.cache
+C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.csproj.Fody.CopyLocal.cache
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.csproj.CopyComplete
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.dll
 C:\Github\Projects\Install-Checker\InstallChecker.Desktop\obj\Debug\netcoreapp3.1\InstallChecker.Desktop.pdb

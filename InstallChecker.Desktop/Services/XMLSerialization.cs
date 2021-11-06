@@ -7,12 +7,15 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace InstallChecker.Desktop.Services
 {
     public class XMLSerialization : IXMLSerialization
     {
+
+
         public void Serialize(Product product, IFileService fileService)
         {
             string savePath = FileSettings.SavedApplicationsPath + $"{product.Name}.xml";
@@ -33,6 +36,10 @@ namespace InstallChecker.Desktop.Services
             {
                 throw new IOException($"Error occured when saving application, please check correct permissions are granted to the following path: {FileSettings.SavedApplicationsPath}", e.InnerException);
             }
+            catch (Exception)
+            {
+                throw new Exception();
+            }
         }
 
         public Product Deserialize(string path)
@@ -41,10 +48,17 @@ namespace InstallChecker.Desktop.Services
 
             using (FileStream fs = new FileStream(path, FileMode.Open))
             {
-                XmlSerializer xml = new XmlSerializer(typeof(Product));
-                StreamReader reader = new StreamReader(fs);
+                try
+                {
+                    XmlSerializer xml = new XmlSerializer(typeof(Product));
+                    StreamReader reader = new StreamReader(fs);
 
-                return (Product)xml.Deserialize(reader);
+                    return (Product)xml.Deserialize(reader);
+                }
+                catch (InvalidOperationException)
+                {
+                    throw new InvalidOperationException($"Error deserialzing the following path {path}");
+                }
             }
         }
     }
