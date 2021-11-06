@@ -10,5 +10,7 @@ namespace InstallChecker.Services
         bool CheckIfFileExists(string path);
         ObservableCollection<Product> GetSavedProducts();
         void ProductsExist(ObservableCollection<Product> products);
+        int GetLastProductID();
+        void MakeProductEdits(Product productBeforeModified, Product product, IFileService fileService);
     }
 }

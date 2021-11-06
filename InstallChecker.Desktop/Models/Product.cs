@@ -12,12 +12,20 @@ namespace InstallChecker.Desktop.Models
         public string Name { get; set; }
         public string Path { get; set; }
         public bool IsInstalled { get; set; }
-        public bool NotInstalled { get; set; }
+        public bool IsEdited { get; set; }
+        public int ProductID { get; set; }
 
         public Product(string name, string path)
         {
             Name = name;
             Path = path;
+        }
+
+        public Product(string name, string path, bool isEdited)
+        {
+            Name = name;
+            Path = path;
+            IsEdited = isEdited;
         }
 
         // Parameterless constructor for xml serialization

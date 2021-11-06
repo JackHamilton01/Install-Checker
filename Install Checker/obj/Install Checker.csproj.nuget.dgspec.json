@@ -58,6 +58,10 @@
             "Prism.Unity": {
               "target": "Package",
               "version": "[8.1.97, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.0, )"
             }
           },
           "imports": [
@@ -145,6 +149,10 @@
             "Prism.Wpf": {
               "target": "Package",
               "version": "[8.1.97, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.0, )"
             },
             "Unity": {
               "target": "Package",
