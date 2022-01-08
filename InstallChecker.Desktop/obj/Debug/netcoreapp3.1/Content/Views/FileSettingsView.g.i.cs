@@ -54,13 +54,13 @@ namespace InstallChecker.Desktop.Views {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.11.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InstallChecker.Desktop;V1.0.0.0;component/content/views/filesettingsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InstallChecker.Desktop;component/content/views/filesettingsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Content\Views\FileSettingsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -70,7 +70,7 @@ namespace InstallChecker.Desktop.Views {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.11.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.13.0")]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
