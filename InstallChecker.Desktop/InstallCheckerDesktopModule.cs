@@ -28,9 +28,7 @@ namespace InstallChecker.Desktop
 
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            unityContainer.RegisterType<IDatabaseConnection, DatabaseConnection>();
             unityContainer.RegisterType<IFileService, FileService>();
-            unityContainer.RegisterType<ISQLCommandSenderService, SQLCommandSenderService>();
             unityContainer.RegisterType<IXMLSerialization, XMLSerialization >();
 
             _regionManager.RegisterViewWithRegion(RegionNames.NewApplicationRegion, typeof(FileSettingsView));       
