@@ -11,3 +11,5 @@ C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\Insta
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.dll
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.pdb
 C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\obj\Debug\InstallChecker.Infrastructure.csproj.AssemblyReference.cache
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\PropertyChanged.dll
+C:\Github\Projects\Install-Checker\InstallChecker.Infrastructure\bin\Debug\PropertyChanged.xml
