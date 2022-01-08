@@ -1,0 +1,113 @@
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unit Tests.deps.json
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unit Tests.runtimeconfig.json
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unit Tests.runtimeconfig.dev.json
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unit Tests.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unit Tests.pdb
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\PropertyChanged.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\Unity.Container.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\InstallChecker.Desktop.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\InstallChecker.Infrastructure.dll
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\InstallChecker.Desktop.pdb
+C:\Github\Projects\Install-Checker\Unit Tests\bin\Debug\netcoreapp3.1\InstallChecker.Infrastructure.pdb
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.csproj.AssemblyReference.cache
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.AssemblyInfoInputs.cache
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.AssemblyInfo.cs
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.csproj.CoreCompileInputs.cache
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.csproj.CopyComplete
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.dll
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.pdb
+C:\Github\Projects\Install-Checker\Unit Tests\obj\Debug\netcoreapp3.1\Unit Tests.genruntimeconfig.cache
