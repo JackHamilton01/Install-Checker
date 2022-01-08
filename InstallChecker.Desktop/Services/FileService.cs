@@ -12,15 +12,13 @@ namespace InstallChecker.Services
 {
     public class FileService : IFileService
     {
-        IDatabaseConnection databaseConnection;
         IXMLSerialization xmlService;
 
         private const string SettingsFolderName = "ToDoList_Settings";
         private string defaultSavePath => Path.Combine(Directory.GetCurrentDirectory(), SettingsFolderName);
 
-        public FileService(IDatabaseConnection databaseConnection, IXMLSerialization saveToXMLService)
+        public FileService(IXMLSerialization saveToXMLService)
         {
-            this.databaseConnection = databaseConnection;
             this.xmlService = saveToXMLService;
         }
 

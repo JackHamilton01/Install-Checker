@@ -15,7 +15,6 @@ namespace InstallChecker.Content.ViewModels
 {
     class ApplicationsViewModel : BindableBase
     {
-        IDatabaseConnection databaseConnection;
         IXMLSerialization xmlSerialization;
         IFileService fileService;
         IEventAggregator eventAggregator;
@@ -28,9 +27,8 @@ namespace InstallChecker.Content.ViewModels
 
         private Product productBeforeModified;
 
-        public ApplicationsViewModel(IDatabaseConnection databaseConnection, IXMLSerialization xmlSerialization, IFileService fileService, IEventAggregator eventAggregator)
+        public ApplicationsViewModel(IXMLSerialization xmlSerialization, IFileService fileService, IEventAggregator eventAggregator)
         {
-            this.databaseConnection = databaseConnection;
             this.xmlSerialization = xmlSerialization;
             this.fileService = fileService;
             this.eventAggregator = eventAggregator;
