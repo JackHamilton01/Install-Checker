@@ -1,2 +1,2 @@
 # Install Checker
- App to display installed programs of users choice 
+This application allows the user to save applications and check if they are installed on the computer.
