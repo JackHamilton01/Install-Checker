@@ -1,5 +1,4 @@
-﻿using Install_Checker.Exceptions;
-using InstallChecker.Desktop.Models;
+﻿using InstallChecker.Desktop.Models;
 using InstallChecker.Desktop.Services;
 using System;
 using System.Collections.Generic;
@@ -31,7 +30,9 @@ namespace InstallChecker.Services
 
         public bool CheckIfFileExists(string path)
         {
-            if (Directory.Exists(path))
+            string validPath = path.ToLower();
+
+            if (File.Exists(validPath))
             {
                 return true;
             }

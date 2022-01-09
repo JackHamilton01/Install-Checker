@@ -1,5 +1,4 @@
-﻿using Install_Checker.Exceptions;
-using InstallChecker.Desktop.Models;
+﻿using InstallChecker.Desktop.Models;
 using InstallChecker.Services;
 using System;
 using System.Collections.Generic;
@@ -14,8 +13,6 @@ namespace InstallChecker.Desktop.Services
 {
     public class XMLSerialization : IXMLSerialization
     {
-
-
         public void Serialize(Product product, IFileService fileService)
         {
             string savePath = FileSettings.SavedApplicationsPath + $"{product.Name}.xml";
@@ -23,7 +20,7 @@ namespace InstallChecker.Desktop.Services
             {
                 if (fileService.CheckIfFileExists(savePath))
                 {
-                    throw new FileAlreadyExistsException($"Application {product.Name} already exists");
+                    throw new Exception("You already have saved this application");
                 }
 
                 using (var stream = new FileStream(savePath, FileMode.CreateNew))
@@ -35,10 +32,6 @@ namespace InstallChecker.Desktop.Services
             catch (IOException e)
             {
                 throw new IOException($"Error occured when saving application, please check correct permissions are granted to the following path: {FileSettings.SavedApplicationsPath}", e.InnerException);
-            }
-            catch (Exception)
-            {
-                throw new Exception();
             }
         }
 
