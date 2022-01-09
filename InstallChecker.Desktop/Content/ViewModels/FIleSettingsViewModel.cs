@@ -1,5 +1,4 @@
-﻿using Install_Checker.Exceptions;
-using InstallChecker.Desktop.Events;
+﻿using InstallChecker.Desktop.Events;
 using InstallChecker.Desktop.Models;
 using InstallChecker.Desktop.Services;
 using InstallChecker.Services;
@@ -54,10 +53,6 @@ namespace InstallChecker.Desktop.Content.ViewModels
 
                 ApplicationName = string.Empty;
                 ApplicationPath = string.Empty;
-            }
-            catch (FileAlreadyExistsException e)
-            {
-                MessageBox.Show(e.Message);
             }
             catch (Exception e)
             {
