@@ -17,11 +17,13 @@ namespace InstallChecker.Desktop.Content.ViewModels
     {
         IFileService fileService;
         IEventAggregator eventAggregator;
+        FolderBrowserService folderBrowserService;
 
         public string ApplicationName { get; set; }
         public string ApplicationPath { get; set; }
 
         public DelegateCommand SaveApplicationCommand { get; set; }
+        public DelegateCommand BrowseCommand { get; set; }
         public ObservableCollection<Product> Products { get; set; } = new ObservableCollection<Product>();
 
         private bool productEdited;
@@ -31,9 +33,17 @@ namespace InstallChecker.Desktop.Content.ViewModels
         {
             this.fileService = saveFileService;
             this.eventAggregator = eventAggregator;
+            folderBrowserService = new FolderBrowserService();
             SaveApplicationCommand = new DelegateCommand(SaveApplication);
+            BrowseCommand = new DelegateCommand(Browse);
 
             eventAggregator.GetEvent<ModifyProductEvent>().Subscribe(OnProductRecieved);
+        }
+
+        private void Browse()
+        {
+            string path = folderBrowserService.OpenFileExplorer();
+            ApplicationPath = path;
         }
 
         private void SaveApplication()

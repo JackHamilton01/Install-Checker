@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LGMUa9sGqj9tJmE750AL1mXq8wP1FofqrLBzeq6qpg5PF2P7c/vh1iQyZSdgFpVQf+/LSmNGNfA8Is4/D4C5Iw==",
+  "dgSpecHash": "mAVBpiCQmp0l3lcdiadzLLj+Dzrv5zJARe1s6dXChARFqX/W5diAKDgS3uLYbT0bVqd2nyfFGAIq2km61RxVRA==",
   "success": true,
   "projectFilePath": "C:\\Github\\Projects\\Install-Checker\\InstallChecker.Desktop\\InstallChecker.Desktop.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\User\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\npgsql\\5.0.10\\npgsql.5.0.10.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\ookii.dialogs.wpf\\5.0.1\\ookii.dialogs.wpf.5.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.unity\\8.1.97\\prism.unity.8.1.97.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",

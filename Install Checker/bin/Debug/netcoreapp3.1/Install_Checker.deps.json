@@ -11,6 +11,7 @@
           "InstallChecker.Desktop": "1.0.0",
           "InstallChecker.Infrastructure": "1.0.0",
           "MaterialDesignThemes": "4.2.1",
+          "Ookii.Dialogs.Wpf": "5.0.1",
           "Prism.Unity": "8.1.97",
           "PropertyChanged.Fody": "3.4.0"
         },
@@ -54,6 +55,14 @@
           "lib/netcoreapp3.1/Npgsql.dll": {
             "assemblyVersion": "5.0.10.0",
             "fileVersion": "5.0.10.0"
+          }
+        }
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
           }
         }
       },
@@ -133,6 +142,7 @@
           "InstallChecker.Infrastructure": "1.0.0",
           "MaterialDesignThemes": "4.2.1",
           "Npgsql": "5.0.10",
+          "Ookii.Dialogs.Wpf": "5.0.1",
           "Prism.Core": "8.1.97",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97",
@@ -190,6 +200,13 @@
       "sha512": "sha512-3TB9le3lfu5Hc+LSHqMCVLcA+qUPg1enyM4+u0pMUBmNNGwc0sVPrnfnys2TVZIdkF8Aww/AZlnJHDsnEGqD0g==",
       "path": "npgsql/5.0.10",
       "hashPath": "npgsql.5.0.10.nupkg.sha512"
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "hashPath": "ookii.dialogs.wpf.5.0.1.nupkg.sha512"
     },
     "Prism.Core/8.1.97": {
       "type": "package",
