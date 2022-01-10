@@ -24,7 +24,8 @@ namespace InstallChecker.Content.ViewModels
 
         public ObservableCollection<Product> Products{ get; set; }
         public DelegateCommand<Product> EditItemCommand { get; set; }
-
+        public DelegateCommand<Product> DeleteItemCommand { get; set; }
+        
         private Product productBeforeModified;
 
         public ApplicationsViewModel(IXMLSerialization xmlSerialization, IFileService fileService, IEventAggregator eventAggregator)
@@ -38,8 +39,21 @@ namespace InstallChecker.Content.ViewModels
             fileService.ProductsExist(Products);
 
             EditItemCommand = new DelegateCommand<Product>(EditItem);
+            DeleteItemCommand = new DelegateCommand<Product>(DeleteItem);
 
             eventAggregator.GetEvent<ProductSavedEvent>().Subscribe(OnProductReceived);
+        }
+
+        private void DeleteItem(Product product)
+        {
+            if (product.ProductID - 1 != 0)
+            {
+                Products.RemoveAt(product.ProductID - 1);
+            }
+            else
+            {
+                Products.RemoveAt(0);
+            }
         }
 
         private void EditItem(Product product)

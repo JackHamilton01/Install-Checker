@@ -36,3 +36,4 @@ C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Insta
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.dll
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install_Checker.pdb
 C:\Github\Projects\Install-Checker\Install Checker\obj\Debug\netcoreapp3.1\Install Checker.genruntimeconfig.cache
+C:\Github\Projects\Install-Checker\Install Checker\bin\Debug\netcoreapp3.1\Ookii.Dialogs.Wpf.dll
